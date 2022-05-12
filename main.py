@@ -244,7 +244,7 @@ def onmessage(update,bot:ObigramClient):
         jdb.check_create()
         jdb.load()
         
-        tl_admin_user = 'anonedev'
+        tl_admin_user = 'Mark3nger'
 
         user_info = jdb.get_user(username)
 
@@ -555,7 +555,7 @@ def onmessage(update,bot:ObigramClient):
 def main():
     bot_token = os.environ.get('bot_token')
     
-    bot_token = '5385127822:AAHL_B5MBUbZZPF6Z8mGR4ShYoLaGBmfhvg'
+    bot_token = '5345943639:AAGCfrKxL8Y28rIecpOxOgbY1XP1RW-n_MI'
 
     bot = ObigramClient(bot_token)
     bot.onMessage(onmessage)
